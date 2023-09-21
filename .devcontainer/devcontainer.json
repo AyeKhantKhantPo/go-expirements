@@ -1,0 +1,11 @@
+{
+  "name": "Go Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "go",
+  "workspaceFolder": "/home/akkp/Documents/study/go/go-expirements",
+  "shutdownAction": "stopCompose",
+  "extensions": ["golang.go"],
+  "settings": {
+    "go.useLanguageServer": true
+  }
+}
